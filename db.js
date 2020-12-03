@@ -2,8 +2,8 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "127.0.0.1",
-  user: "yourusername",
-  password: "yourpassword"
+  user: "root",
+  password: ""
 });
 
 function createDatabase (){
